@@ -208,6 +208,60 @@ describe('Git Context', () => {
 
       expect(ref).toEqual('refs/heads/test');
     });
+
+    it('returns synthetic ref for plain detached HEAD', async () => {
+      vi.spyOn(core, 'exec').mockImplementation((cmd, args): Promise<core.ExecResult> => {
+        const fullCmd = `${cmd} ${args?.join(' ')}`;
+        let result = '';
+        switch (fullCmd) {
+          case 'git branch --show-current':
+            result = '';
+            break;
+          case 'git show -s --pretty=%D':
+            result = 'HEAD';
+            break;
+          case 'git show --format=%H HEAD --quiet --':
+            result = 'abc1234567890def';
+            break;
+        }
+        return Promise.resolve({
+          stdout: result,
+          stderr: '',
+          exitCode: 0,
+        }) as unknown as Promise<core.ExecResult>;
+      });
+
+      const ref = await Git.ref();
+
+      expect(ref).toEqual('refs/heads/detached-abc1234');
+    });
+
+    it('returns synthetic ref for empty detached HEAD output', async () => {
+      vi.spyOn(core, 'exec').mockImplementation((cmd, args): Promise<core.ExecResult> => {
+        const fullCmd = `${cmd} ${args?.join(' ')}`;
+        let result = '';
+        switch (fullCmd) {
+          case 'git branch --show-current':
+            result = '';
+            break;
+          case 'git show -s --pretty=%D':
+            result = '';
+            break;
+          case 'git show --format=%H HEAD --quiet --':
+            result = 'def0987654321abc';
+            break;
+        }
+        return Promise.resolve({
+          stdout: result,
+          stderr: '',
+          exitCode: 0,
+        }) as unknown as Promise<core.ExecResult>;
+      });
+
+      const ref = await Git.ref();
+
+      expect(ref).toEqual('refs/heads/detached-def0987');
+    });
   });
 
   describe('fullCommit', () => {

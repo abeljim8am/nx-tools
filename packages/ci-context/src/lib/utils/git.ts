@@ -66,6 +66,13 @@ export class Git {
   private static async getDetachedRef(): Promise<string> {
     const res = await Git.exec(['show', '-s', '--pretty=%D']);
 
+    // If we get just "HEAD" or empty, we're on a plain detached HEAD
+    // Return a ref based on the commit SHA
+    if (!res || res === 'HEAD' || res.trim() === '') {
+      const sha = await Git.fullCommit();
+      return `refs/heads/detached-${sha.substring(0, 7)}`;
+    }
+
     // Can be "HEAD, <tagname>" or "grafted, HEAD, <tagname>"
     const refMatch = res.match(/^(grafted, )?HEAD, (.*)$/);
 
