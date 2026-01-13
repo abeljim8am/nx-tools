@@ -12,7 +12,7 @@ if (process.env.CI) {
   process.exit(0);
 }
 
-import { consola } from 'consola';
+import consola from 'consola';
 import { execSync } from 'node:child_process';
 
 /**
