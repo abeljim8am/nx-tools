@@ -1,3 +1,14 @@
+## 7.2.1 (2026-01-13)
+
+### 🩹 Fixes
+
+- **ci-context:** fix context resolution when git is in detached head state ([ef357839](https://github.com/gperdomor/nx-tools/commit/ef357839))
+- Fix consola import in preinstall script to support Node.js v22 ESM ([7bb9b371](https://github.com/gperdomor/nx-tools/commit/7bb9b371))
+
+### ❤️ Thank You
+
+- Abel Jimenez
+
 ## 7.2.0 (2025-11-22)
 
 ### 🚀 Features
