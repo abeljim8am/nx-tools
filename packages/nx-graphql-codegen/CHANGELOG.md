@@ -1,3 +1,65 @@
+## 7.2.1 (2026-01-15)
+
+### 🚀 Features
+
+- added initial support for Nx 22 ([942cc11](https://github.com/abeljim8am/nx-tools/commit/942cc11))
+- **core:** migrate from @action/exec to tinyexec ([#1284](https://github.com/abeljim8am/nx-tools/pull/1284))
+- **core:** move core package to ESM ([#1282](https://github.com/abeljim8am/nx-tools/pull/1282))
+- **nx-graphql-codegen:** move project to plugins directory ([e7b073f](https://github.com/abeljim8am/nx-tools/commit/e7b073f))
+- nx 19 support ([3922496](https://github.com/abeljim8am/nx-tools/commit/3922496))
+- **nx-graphql-codegen:** adding new plugin to graphql code generate support ([2571045](https://github.com/abeljim8am/nx-tools/commit/2571045))
+
+### 🩹 Fixes
+
+- **nx-graphql-codegen:** updated execution with pnpm ([43e3ea7](https://github.com/abeljim8am/nx-tools/commit/43e3ea7))
+- **nx-graphql-codegen:** relaxed dependencies ranges ([8a98e9d](https://github.com/abeljim8am/nx-tools/commit/8a98e9d))
+
+### 🏡 Chore
+
+- **release:** publish 7.2.0 ([5073c41](https://github.com/abeljim8am/nx-tools/commit/5073c41))
+- **release:** publish 7.1.1-0 ([a6bc84a](https://github.com/abeljim8am/nx-tools/commit/a6bc84a))
+- **release:** publish 7.1.0 ([958029a](https://github.com/abeljim8am/nx-tools/commit/958029a))
+- **release:** publish 7.0.2 ([b900199](https://github.com/abeljim8am/nx-tools/commit/b900199))
+- **release:** publish 7.0.2-beta.0 ([636778c](https://github.com/abeljim8am/nx-tools/commit/636778c))
+- **release:** publish 7.0.1 ([2427901](https://github.com/abeljim8am/nx-tools/commit/2427901))
+- fix dependency range to actually support Nx version 22 ([738f6a1](https://github.com/abeljim8am/nx-tools/commit/738f6a1))
+- **release:** publish 7.0.0 ([2e5b88e](https://github.com/abeljim8am/nx-tools/commit/2e5b88e))
+- **release:** publish 7.0.0-alpha.3 ([565ae01](https://github.com/abeljim8am/nx-tools/commit/565ae01))
+- added node 24 support ([7a348f9](https://github.com/abeljim8am/nx-tools/commit/7a348f9))
+- fix customConditions ([5082c66](https://github.com/abeljim8am/nx-tools/commit/5082c66))
+- **release:** publish 7.0.0-alpha.2 ([d247cfa](https://github.com/abeljim8am/nx-tools/commit/d247cfa))
+- **release:** publish 7.0.0-alpha.1 ([e889155](https://github.com/abeljim8am/nx-tools/commit/e889155))
+- ⚠️  bump min Node.js version to 20.19 ([c8412d2](https://github.com/abeljim8am/nx-tools/commit/c8412d2))
+- ⚠️  bump required tslib version ranges ([dc121be](https://github.com/abeljim8am/nx-tools/commit/dc121be))
+- ⚠️  bump required nx version ranges ([7d0dbea](https://github.com/abeljim8am/nx-tools/commit/7d0dbea))
+- bump nx and tslib version requirements ([#1280](https://github.com/abeljim8am/nx-tools/pull/1280))
+- **release:** publish ([5acb2aa](https://github.com/abeljim8am/nx-tools/commit/5acb2aa))
+- **release:** publish ([b5baec3](https://github.com/abeljim8am/nx-tools/commit/b5baec3))
+- **release:** publish ([c1fb374](https://github.com/abeljim8am/nx-tools/commit/c1fb374))
+- update projects configurations to prepare for nx-release ([d68c141](https://github.com/abeljim8am/nx-tools/commit/d68c141))
+- transition to pnpm ([900d217](https://github.com/abeljim8am/nx-tools/commit/900d217))
+- **deps:** bump @graphql-codegen/cli from 5.0.0 to v5.0.2 ([cdbca1f](https://github.com/abeljim8am/nx-tools/commit/cdbca1f))
+- fix lint issues ([b834fcb](https://github.com/abeljim8am/nx-tools/commit/b834fcb))
+- migrate to nx 18 ([5ed4b8a](https://github.com/abeljim8am/nx-tools/commit/5ed4b8a))
+- bump to 6.0.0-alpha.2 ([69f7acf](https://github.com/abeljim8am/nx-tools/commit/69f7acf))
+- **deps:** bump nrwl monorepo from ^16.0.0 to v17 (major) ([e83682b](https://github.com/abeljim8am/nx-tools/commit/e83682b))
+- **nx-graphql-codegen:** sync version ([b13610b](https://github.com/abeljim8am/nx-tools/commit/b13610b))
+
+### ⚠️  Breaking Changes
+
+- bump min Node.js version to 20.19  ([c8412d2](https://github.com/abeljim8am/nx-tools/commit/c8412d2))
+  update supported Node.js versions to 20.19.x and later
+- bump required tslib version ranges  ([dc121be](https://github.com/abeljim8am/nx-tools/commit/dc121be))
+  update supported tslib versions to 2.6.x and later
+- bump required nx version ranges  ([7d0dbea](https://github.com/abeljim8am/nx-tools/commit/7d0dbea))
+  removed support of Nx 16.x and 17.x
+
+### ❤️ Thank You
+
+- Gustavo Perdomo
+- René @jahusa02
+- Rene Bonilla
+
 ## 7.2.0 (2025-11-22)
 
 ### 🏡 Chore
