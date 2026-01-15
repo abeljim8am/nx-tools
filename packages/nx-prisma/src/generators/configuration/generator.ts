@@ -49,51 +49,51 @@ export async function configurationGenerator(tree: Tree, options: ConfigurationG
     targets: {
       ...project.targets,
       'prisma-deploy': {
-        executor: '@nx-tools/nx-prisma:deploy',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:deploy',
         ...executorOpts,
       },
       'prisma-format': {
-        executor: '@nx-tools/nx-prisma:format',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:format',
         ...executorOpts,
       },
       'prisma-generate': {
-        executor: '@nx-tools/nx-prisma:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:generate',
         ...executorOpts,
       },
       'prisma-migrate': {
-        executor: '@nx-tools/nx-prisma:migrate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:migrate',
         ...executorOpts,
       },
       'prisma-pull': {
-        executor: '@nx-tools/nx-prisma:pull',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:pull',
         ...executorOpts,
       },
       'prisma-push': {
-        executor: '@nx-tools/nx-prisma:push',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:push',
         ...executorOpts,
       },
       'prisma-reset': {
-        executor: '@nx-tools/nx-prisma:reset',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:reset',
         ...executorOpts,
       },
       'prisma-resolve': {
-        executor: '@nx-tools/nx-prisma:resolve',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:resolve',
         ...executorOpts,
       },
       'prisma-seed': {
-        executor: '@nx-tools/nx-prisma:seed',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:seed',
         ...executorOpts,
       },
       'prisma-status': {
-        executor: '@nx-tools/nx-prisma:status',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:status',
         ...executorOpts,
       },
       'prisma-studio': {
-        executor: '@nx-tools/nx-prisma:studio',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:studio',
         ...executorOpts,
       },
       'prisma-validate': {
-        executor: '@nx-tools/nx-prisma:validate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:validate',
         ...executorOpts,
       },
     },

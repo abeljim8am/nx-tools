@@ -49,7 +49,7 @@ export async function configurationGenerator(tree: Tree, options: ConfigurationG
     targets: {
       ...project.targets,
       'codegen-generate': {
-        executor: '@nx-tools/nx-graphql-codegen:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-graphql-codegen:generate',
         ...executorOpts,
       },
     },

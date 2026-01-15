@@ -1,4 +1,4 @@
-import { exec, interpolate } from '@nx-tools/core';
+import { exec, interpolate } from '@abeljimenez8am-nx-tools/core';
 import { parse } from 'csv-parse/sync';
 import fs from 'node:fs';
 import path from 'node:path';

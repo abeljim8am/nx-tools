@@ -1,4 +1,4 @@
-import { asyncForEach, exec, logger } from '@nx-tools/core';
+import { asyncForEach, exec, logger } from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext } from '@nx/devkit';
 import * as handlebars from 'handlebars';
 import { Inputs } from '../../context';

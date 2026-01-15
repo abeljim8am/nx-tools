@@ -1,4 +1,4 @@
-import * as core from '@nx-tools/core';
+import * as core from '@abeljimenez8am-nx-tools/core';
 import { beforeEach, describe, expect, it, vi } from 'vitest';
 import { ContextProxyFactory } from './context.factory';
 import { RunnerContext } from './interfaces';
@@ -14,7 +14,7 @@ import { Semaphore } from './utils/semaphore';
 import { Teamcity } from './utils/teamcity';
 import { Travis } from './utils/travis';
 
-vi.mock('@nx-tools/core', () => ({
+vi.mock('@abeljimenez8am-nx-tools/core', () => ({
   logger: {
     info: vi.fn(),
   },

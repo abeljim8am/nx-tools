@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { RunnerContext as Context, RepoMetadata } from '@nx-tools/ci-context';
-import { interpolate, logger as L, tmpDir } from '@nx-tools/core';
+import { RunnerContext as Context, RepoMetadata } from '@abeljimenez8am-nx-tools/ci-context';
+import { interpolate, logger as L, tmpDir } from '@abeljimenez8am-nx-tools/core';
 import * as pep440 from '@renovatebot/pep440';
 import * as handlebars from 'handlebars';
 import moment from 'moment-timezone';

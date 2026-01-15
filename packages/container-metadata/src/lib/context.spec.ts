@@ -1,7 +1,7 @@
-import { ContextProxyFactory, RunnerContext } from '@nx-tools/ci-context';
-import { Git } from '@nx-tools/ci-context/src/lib/utils/git';
-import { Github } from '@nx-tools/ci-context/src/lib/utils/github';
-import { getPosixName } from '@nx-tools/core';
+import { ContextProxyFactory, RunnerContext } from '@abeljimenez8am-nx-tools/ci-context';
+import { Git } from '@abeljimenez8am-nx-tools/ci-context/src/lib/utils/git';
+import { Github } from '@abeljimenez8am-nx-tools/ci-context/src/lib/utils/github';
+import { getPosixName } from '@abeljimenez8am-nx-tools/core';
 import * as path from 'node:path';
 import { stubEnvsFromFile } from '../test-utils.spec';
 import { Inputs, getContext, getInputs } from './context';

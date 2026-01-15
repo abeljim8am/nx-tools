@@ -17,7 +17,7 @@
  *
  * @example
  * ```typescript
- * import { toBoolean } from '@nx-tools/core';
+ * import { toBoolean } from '@abeljimenez8am-nx-tools/core';
  *
  * // String conversions (case-insensitive)
  * toBoolean('true')     // true

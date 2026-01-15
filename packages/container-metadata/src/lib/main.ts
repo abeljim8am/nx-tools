@@ -1,5 +1,5 @@
-import { RunnerContext as Context, ContextProxyFactory, RepoMetadata, RepoProxyFactory } from '@nx-tools/ci-context';
-import { isDebug, logger as L } from '@nx-tools/core';
+import { RunnerContext as Context, ContextProxyFactory, RepoMetadata, RepoProxyFactory } from '@abeljimenez8am-nx-tools/ci-context';
+import { isDebug, logger as L } from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext } from '@nx/devkit';
 import * as fs from 'node:fs';
 import { getInputs, Inputs } from './context';

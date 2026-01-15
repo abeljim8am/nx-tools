@@ -1,4 +1,4 @@
-import { logger } from '@nx-tools/core';
+import { logger } from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext, getPackageManagerCommand, PromiseExecutor } from '@nx/devkit';
 import { execSync } from 'node:child_process';
 import { getDefaultScheme } from '../../utils';

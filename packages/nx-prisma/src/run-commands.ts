@@ -1,4 +1,4 @@
-import { exec, logger } from '@nx-tools/core';
+import { exec, logger } from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext, getPackageManagerCommand } from '@nx/devkit';
 
 export interface PrismaBuilderOptions {

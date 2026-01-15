@@ -1,4 +1,4 @@
-import * as core from '@nx-tools/core';
+import * as core from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext } from '@nx/devkit';
 import executor from './executor';
 import { GenerateExecutorSchema } from './schema';

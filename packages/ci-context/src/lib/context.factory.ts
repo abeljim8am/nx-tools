@@ -1,4 +1,4 @@
-import { logger } from '@nx-tools/core';
+import { logger } from '@abeljimenez8am-nx-tools/core';
 import { provider } from 'std-env';
 import { RunnerContext } from './interfaces';
 import { Azure } from './utils/azure-devops';

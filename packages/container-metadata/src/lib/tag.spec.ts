@@ -1,4 +1,4 @@
-import { logger } from '@nx-tools/core';
+import { logger } from '@abeljimenez8am-nx-tools/core';
 import { mockConsole } from '../test-utils.spec';
 import { DefaultPriorities, Parse, RefEvent, ShaFormat, Tag, Transform, Type } from './tag';
 

@@ -12,7 +12,7 @@ import { toBoolean } from './utils';
  *
  * @example
  * ```typescript
- * import { isDebug } from '@nx-tools/core';
+ * import { isDebug } from '@abeljimenez8am-nx-tools/core';
  *
  * if (isDebug) {
  *   console.log('Debug mode enabled');

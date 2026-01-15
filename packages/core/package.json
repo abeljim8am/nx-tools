@@ -1,5 +1,5 @@
 {
-  "name": "@nx-tools/core",
+  "name": "@abeljimenez8am-nx-tools/core",
   "version": "7.2.1",
   "author": "gperdomor <gperdomor@gmail.com>",
   "repository": {
@@ -9,12 +9,15 @@
   },
   "bugs": "https://github.com/gperdomor/nx-tools/issues",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "@nx-tools/source": "./src/index.ts",
+      "@abeljimenez8am-nx-tools/source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"

@@ -1,4 +1,4 @@
-import { asyncForEach, exec, getBooleanInput, logger } from '@nx-tools/core';
+import { asyncForEach, exec, getBooleanInput, logger } from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext, names } from '@nx/devkit';
 import * as handlebars from 'handlebars';
 import { randomBytes } from 'node:crypto';

@@ -1,6 +1,6 @@
 import * as github from '@actions/github';
 import { Context } from '@actions/github/lib/context';
-import { logger } from '@nx-tools/core';
+import { logger } from '@abeljimenez8am-nx-tools/core';
 import { Payload, RepoMetadata, RunnerContext } from '../interfaces';
 
 export class Github {

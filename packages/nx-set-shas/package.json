@@ -1,5 +1,5 @@
 {
-  "name": "@nx-tools/nx-set-shas",
+  "name": "@abeljimenez8am-nx-tools/nx-set-shas",
   "version": "7.2.1",
   "type": "module",
   "main": "./dist/index.js",
@@ -9,6 +9,9 @@
     "type": "git",
     "url": "https://github.com/gperdomor/nx-tools",
     "directory": "packages/nx-set-shas"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
@@ -28,7 +31,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "@nx-tools/source": "./src/index.ts",
+      "@abeljimenez8am-nx-tools/source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
@@ -41,7 +44,7 @@
     "!**/*.tsbuildinfo"
   ],
   "dependencies": {
-    "@nx-tools/core": "workspace:*",
+    "@abeljimenez8am-nx-tools/core": "workspace:*",
     "@oclif/core": "4.5.4",
     "@oclif/plugin-help": "6.2.36",
     "semver": "7.7.3"

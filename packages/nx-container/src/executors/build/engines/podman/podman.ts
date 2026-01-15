@@ -1,5 +1,5 @@
-import * as core from '@nx-tools/core';
-import { interpolate } from '@nx-tools/core';
+import * as core from '@abeljimenez8am-nx-tools/core';
+import { interpolate } from '@abeljimenez8am-nx-tools/core';
 import { parse } from 'csv-parse/sync';
 import fs from 'node:fs';
 import path from 'node:path';

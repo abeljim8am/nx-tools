@@ -1,4 +1,4 @@
-import { RepoMetadata } from '@nx-tools/ci-context';
+import { RepoMetadata } from '@abeljimenez8am-nx-tools/ci-context';
 import { workspaceRoot } from '@nx/devkit';
 import * as path from 'node:path';
 
@@ -16,8 +16,8 @@ import * as path from 'node:path';
 
 vi.setConfig({ testTimeout: 60 * 1_000 });
 
-vi.mock('@nx-tools/ci-context', async (importOriginal) => {
-  const original = await importOriginal<typeof import('@nx-tools/ci-context')>();
+vi.mock('@abeljimenez8am-nx-tools/ci-context', async (importOriginal) => {
+  const original = await importOriginal<typeof import('@abeljimenez8am-nx-tools/ci-context')>();
 
   return {
     ...original,

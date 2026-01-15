@@ -1,4 +1,4 @@
-import { exec, getInput, getProjectRoot, interpolate, logger } from '@nx-tools/core';
+import { exec, getInput, getProjectRoot, interpolate, logger } from '@abeljimenez8am-nx-tools/core';
 import { names, PromiseExecutor } from '@nx/devkit';
 import 'dotenv/config';
 import { existsSync } from 'node:fs';
@@ -30,7 +30,7 @@ const runExecutor: PromiseExecutor<BuildExecutorSchema> = async (options, ctx) =
     await engine.initialize(inputs, ctx);
 
     if (options.metadata?.images) {
-      const { getMetadata } = await import('@nx-tools/container-metadata');
+      const { getMetadata } = await import('@abeljimenez8am-nx-tools/container-metadata');
       const meta = await getMetadata({ ...options.metadata, quiet: options.quiet }, ctx);
       inputs.labels = meta.getLabels();
       inputs.tags = meta.getTags();

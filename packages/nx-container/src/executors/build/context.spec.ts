@@ -1,4 +1,4 @@
-import { getPosixName } from '@nx-tools/core';
+import { getPosixName } from '@abeljimenez8am-nx-tools/core';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import * as context from './context';

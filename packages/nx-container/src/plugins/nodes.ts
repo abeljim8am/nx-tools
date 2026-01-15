@@ -16,7 +16,7 @@ import { workspaceDataDirectory } from 'nx/src/utils/cache-directory';
 import { dirname, join } from 'path';
 import { DEFAULT_ENGINE, DEFAULT_REGISTRY } from '../generators/configuration/constants';
 
-export const PLUGIN_NAME = '@nx-tools/nx-container';
+export const PLUGIN_NAME = '@abeljimenez8am-nx-tools/nx-container';
 
 export interface ContainerPluginOptions {
   buildTargetName?: string;
@@ -90,7 +90,7 @@ async function createNodesInternal(
 function buildTargets(projectRoot: string, options: NormalizedContainerPluginOptions, projectName: string) {
   const targets: Record<string, TargetConfiguration> = {
     [options.buildTargetName]: {
-      executor: '@nx-tools/nx-container:build',
+      executor: '@abeljimenez8am-nx-tools/nx-container:build',
       dependsOn: ['build'],
       options: {
         engine: options.defaultEngine,

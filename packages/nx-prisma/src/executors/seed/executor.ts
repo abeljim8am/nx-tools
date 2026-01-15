@@ -1,4 +1,4 @@
-import { exec, getProjectRoot, logger } from '@nx-tools/core';
+import { exec, getProjectRoot, logger } from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext, getPackageManagerCommand, joinPathFragments, PromiseExecutor } from '@nx/devkit';
 import { splitCommand } from '../../run-commands';
 import { SeedExecutorSchema } from './schema';

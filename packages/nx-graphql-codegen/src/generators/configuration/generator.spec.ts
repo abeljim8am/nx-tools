@@ -32,7 +32,7 @@ describe('configuration generator', () => {
 
     expect(project.targets).toEqual({
       'codegen-generate': {
-        executor: '@nx-tools/nx-graphql-codegen:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-graphql-codegen:generate',
       },
     });
   });
@@ -58,7 +58,7 @@ describe('configuration generator', () => {
 
     expect(project.targets).toEqual({
       'codegen-generate': {
-        executor: '@nx-tools/nx-graphql-codegen:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-graphql-codegen:generate',
       },
     });
   });
@@ -85,7 +85,7 @@ describe('configuration generator', () => {
 
     expect(project.targets).toEqual({
       'codegen-generate': {
-        executor: '@nx-tools/nx-graphql-codegen:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-graphql-codegen:generate',
         options: {
           config: 'apps/mypkg/codegen/codegen.ts',
         },

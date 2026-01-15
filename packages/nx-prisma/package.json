@@ -1,5 +1,5 @@
 {
-  "name": "@nx-tools/nx-prisma",
+  "name": "@abeljimenez8am-nx-tools/nx-prisma",
   "version": "7.2.1",
   "type": "commonjs",
   "author": "gperdomor <gperdomor@gmail.com>",
@@ -13,12 +13,15 @@
   },
   "bugs": "https://github.com/gperdomor/nx-tools/issues",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "executors": "./executors.json",
   "generators": "./generators.json",
   "dependencies": {
-    "@nx-tools/core": "workspace:*"
+    "@abeljimenez8am-nx-tools/core": "workspace:*"
   },
   "peerDependencies": {
     "@nx/devkit": ">=18.0.0 <23.0.0",
@@ -47,7 +50,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "@nx-tools/source": "./src/index.ts",
+      "@abeljimenez8am-nx-tools/source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"

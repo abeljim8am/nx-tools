@@ -1,4 +1,4 @@
-import * as core from '@nx-tools/core';
+import * as core from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext, names } from '@nx/devkit';
 import { parse } from 'csv-parse/sync';
 import * as fs from 'node:fs';

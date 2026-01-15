@@ -1,6 +1,6 @@
-import { ContextProxyFactory, RepoMetadata, RepoProxyFactory, RunnerContext } from '@nx-tools/ci-context';
-import { Github } from '@nx-tools/ci-context/src/lib/utils/github';
-import { logger } from '@nx-tools/core';
+import { ContextProxyFactory, RepoMetadata, RepoProxyFactory, RunnerContext } from '@abeljimenez8am-nx-tools/ci-context';
+import { Github } from '@abeljimenez8am-nx-tools/ci-context/src/lib/utils/github';
+import { logger } from '@abeljimenez8am-nx-tools/core';
 import { workspaceRoot } from '@nx/devkit';
 import * as fs from 'node:fs';
 import * as path from 'node:path';

@@ -1,4 +1,4 @@
-import { getProjectRoot } from '@nx-tools/core';
+import { getProjectRoot } from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext, joinPathFragments } from '@nx/devkit';
 import { PRISMA_DEFAULT_DIR } from './generators/configuration/constants';
 

@@ -1,4 +1,4 @@
-import { exec } from '@nx-tools/core';
+import { exec } from '@abeljimenez8am-nx-tools/core';
 import { RepoMetadata, RunnerContext } from '../interfaces';
 
 export class Git {

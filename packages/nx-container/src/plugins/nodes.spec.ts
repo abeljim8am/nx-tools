@@ -96,7 +96,7 @@ describe(`Plugin: ${PLUGIN_NAME}`, () => {
                     "dependsOn": [
                       "build",
                     ],
-                    "executor": "@nx-tools/nx-container:build",
+                    "executor": "@abeljimenez8am-nx-tools/nx-container:build",
                     "options": {
                       "engine": "docker",
                       "load": true,
@@ -164,7 +164,7 @@ describe(`Plugin: ${PLUGIN_NAME}`, () => {
                     "dependsOn": [
                       "build",
                     ],
-                    "executor": "@nx-tools/nx-container:build",
+                    "executor": "@abeljimenez8am-nx-tools/nx-container:build",
                     "options": {
                       "engine": "docker",
                       "load": true,

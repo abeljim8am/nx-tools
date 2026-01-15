@@ -1,4 +1,4 @@
-import * as core from '@nx-tools/core';
+import * as core from '@abeljimenez8am-nx-tools/core';
 import * as local from './git';
 import { Git } from './git';
 

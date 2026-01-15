@@ -1,5 +1,5 @@
-import { ContextProxyFactory, RunnerContext } from '@nx-tools/ci-context';
-import * as core from '@nx-tools/core';
+import { ContextProxyFactory, RunnerContext } from '@abeljimenez8am-nx-tools/ci-context';
+import * as core from '@abeljimenez8am-nx-tools/core';
 import { ExecutorContext, names } from '@nx/devkit';
 
 export interface Inputs {

@@ -1,4 +1,4 @@
-import { logger as L } from '@nx-tools/core';
+import { logger as L } from '@abeljimenez8am-nx-tools/core';
 import { parse } from 'csv-parse/sync';
 
 export interface Image {

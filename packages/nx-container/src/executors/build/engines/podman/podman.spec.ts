@@ -1,4 +1,4 @@
-import * as core from '@nx-tools/core';
+import * as core from '@abeljimenez8am-nx-tools/core';
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import * as semver from 'semver';

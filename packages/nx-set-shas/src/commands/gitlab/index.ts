@@ -1,4 +1,4 @@
-import { exec } from '@nx-tools/core';
+import { exec } from '@abeljimenez8am-nx-tools/core';
 import { Command, Flags } from '@oclif/core';
 import { colorize } from '@oclif/core/ux';
 import { existsSync, readFileSync, writeFileSync } from 'node:fs';

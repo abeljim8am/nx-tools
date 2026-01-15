@@ -27,40 +27,40 @@ describe('configuration generator', () => {
     expect(contents).toMatch('provider = "postgresql"');
     expect(config.targets).toEqual({
       'prisma-deploy': {
-        executor: '@nx-tools/nx-prisma:deploy',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:deploy',
       },
       'prisma-format': {
-        executor: '@nx-tools/nx-prisma:format',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:format',
       },
       'prisma-generate': {
-        executor: '@nx-tools/nx-prisma:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:generate',
       },
       'prisma-migrate': {
-        executor: '@nx-tools/nx-prisma:migrate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:migrate',
       },
       'prisma-pull': {
-        executor: '@nx-tools/nx-prisma:pull',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:pull',
       },
       'prisma-push': {
-        executor: '@nx-tools/nx-prisma:push',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:push',
       },
       'prisma-reset': {
-        executor: '@nx-tools/nx-prisma:reset',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:reset',
       },
       'prisma-resolve': {
-        executor: '@nx-tools/nx-prisma:resolve',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:resolve',
       },
       'prisma-seed': {
-        executor: '@nx-tools/nx-prisma:seed',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:seed',
       },
       'prisma-status': {
-        executor: '@nx-tools/nx-prisma:status',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:status',
       },
       'prisma-studio': {
-        executor: '@nx-tools/nx-prisma:studio',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:studio',
       },
       'prisma-validate': {
-        executor: '@nx-tools/nx-prisma:validate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:validate',
       },
     });
   });
@@ -82,73 +82,73 @@ describe('configuration generator', () => {
     expect(contents).toMatch('provider = "sqlite"');
     expect(config.targets).toEqual({
       'prisma-deploy': {
-        executor: '@nx-tools/nx-prisma:deploy',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:deploy',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-format': {
-        executor: '@nx-tools/nx-prisma:format',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:format',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-generate': {
-        executor: '@nx-tools/nx-prisma:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:generate',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-migrate': {
-        executor: '@nx-tools/nx-prisma:migrate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:migrate',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-pull': {
-        executor: '@nx-tools/nx-prisma:pull',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:pull',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-push': {
-        executor: '@nx-tools/nx-prisma:push',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:push',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-reset': {
-        executor: '@nx-tools/nx-prisma:reset',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:reset',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-resolve': {
-        executor: '@nx-tools/nx-prisma:resolve',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:resolve',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-seed': {
-        executor: '@nx-tools/nx-prisma:seed',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:seed',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-status': {
-        executor: '@nx-tools/nx-prisma:status',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:status',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-studio': {
-        executor: '@nx-tools/nx-prisma:studio',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:studio',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
       },
       'prisma-validate': {
-        executor: '@nx-tools/nx-prisma:validate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:validate',
         options: {
           schema: 'apps/mypkg/custom-dir/schema.prisma',
         },
@@ -173,40 +173,40 @@ describe('configuration generator', () => {
     expect(contents).toMatch('provider = "mongodb"');
     expect(config.targets).toEqual({
       'prisma-deploy': {
-        executor: '@nx-tools/nx-prisma:deploy',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:deploy',
       },
       'prisma-format': {
-        executor: '@nx-tools/nx-prisma:format',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:format',
       },
       'prisma-generate': {
-        executor: '@nx-tools/nx-prisma:generate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:generate',
       },
       'prisma-migrate': {
-        executor: '@nx-tools/nx-prisma:migrate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:migrate',
       },
       'prisma-pull': {
-        executor: '@nx-tools/nx-prisma:pull',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:pull',
       },
       'prisma-push': {
-        executor: '@nx-tools/nx-prisma:push',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:push',
       },
       'prisma-reset': {
-        executor: '@nx-tools/nx-prisma:reset',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:reset',
       },
       'prisma-resolve': {
-        executor: '@nx-tools/nx-prisma:resolve',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:resolve',
       },
       'prisma-seed': {
-        executor: '@nx-tools/nx-prisma:seed',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:seed',
       },
       'prisma-status': {
-        executor: '@nx-tools/nx-prisma:status',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:status',
       },
       'prisma-studio': {
-        executor: '@nx-tools/nx-prisma:studio',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:studio',
       },
       'prisma-validate': {
-        executor: '@nx-tools/nx-prisma:validate',
+        executor: '@abeljimenez8am-nx-tools/nx-prisma:validate',
       },
     });
   });

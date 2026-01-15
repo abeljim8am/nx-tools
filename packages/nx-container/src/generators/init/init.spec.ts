@@ -20,7 +20,7 @@ describe('init generator', () => {
     expect(nxJson?.plugins).toBeDefined();
     expect(
       nxJson?.plugins?.some((p: PluginConfiguration) =>
-        typeof p === 'string' ? p === '@nx-tools/nx-container' : p.plugin === '@nx-tools/nx-container',
+        typeof p === 'string' ? p === '@abeljimenez8am-nx-tools/nx-container' : p.plugin === '@abeljimenez8am-nx-tools/nx-container',
       ),
     ).toBe(true);
   });
@@ -28,7 +28,7 @@ describe('init generator', () => {
   it('should not add the plugin if it already exists', async () => {
     // Simulate the plugin already being added
     const nxJson = readJson(tree, 'nx.json');
-    nxJson.plugins = [{ plugin: '@nx-tools/nx-container', options: {} }];
+    nxJson.plugins = [{ plugin: '@abeljimenez8am-nx-tools/nx-container', options: {} }];
     tree.write('nx.json', JSON.stringify(nxJson));
 
     // Run the generator

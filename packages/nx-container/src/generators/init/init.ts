@@ -19,7 +19,7 @@ export async function initGenerator(tree: Tree, options: Schema): Promise<Genera
     nxJson.plugins ??= [];
 
     const pluginConfig: ExpandedPluginConfiguration<ContainerPluginOptions> = {
-      plugin: '@nx-tools/nx-container',
+      plugin: '@abeljimenez8am-nx-tools/nx-container',
       options: { defaultEngine: options.defaultEngine, defaultRegistry: options.defaultRegistry },
     };
 
@@ -33,7 +33,7 @@ export async function initGenerator(tree: Tree, options: Schema): Promise<Genera
 function hasContainerPlugin(nxJson: NxJsonConfiguration): boolean {
   return (
     nxJson.plugins?.some((plugin) =>
-      typeof plugin === 'string' ? plugin === '@nx-tools/nx-container' : plugin.plugin === '@nx-tools/nx-container',
+      typeof plugin === 'string' ? plugin === '@abeljimenez8am-nx-tools/nx-container' : plugin.plugin === '@abeljimenez8am-nx-tools/nx-container',
     ) ?? false
   );
 }
