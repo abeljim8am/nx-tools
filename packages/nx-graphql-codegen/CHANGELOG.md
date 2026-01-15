@@ -1,3 +1,13 @@
+## 7.2.2 (2026-01-15)
+
+### 🏡 Chore
+
+- migrate to @abeljimenez8am-nx-tools scope ([2b1201c](https://github.com/abeljim8am/nx-tools/commit/2b1201c))
+
+### ❤️ Thank You
+
+- abeljim8am
+
 ## 7.2.1 (2026-01-15)
 
 ### 🚀 Features
