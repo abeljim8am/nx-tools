@@ -1,3 +1,7 @@
+## 7.2.3 (2026-01-15)
+
+This was a version bump only for nx-prisma to align it with other projects, there were no code changes.
+
 ## 7.2.2 (2026-01-15)
 
 ### 🏡 Chore

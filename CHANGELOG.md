@@ -1,3 +1,13 @@
+## 7.2.3 (2026-01-15)
+
+### 🏡 Chore
+
+- upgrade @renovatebot/pep440 to 4.2.1 for Node 24 support ([0f38b5b](https://github.com/abeljim8am/nx-tools/commit/0f38b5b))
+
+### ❤️ Thank You
+
+- abeljim8am
+
 ## 7.2.2 (2026-01-15)
 
 ### 🏡 Chore
